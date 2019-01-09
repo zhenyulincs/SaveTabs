@@ -1,0 +1,14 @@
+ {
+    "name": "Save your tab",
+    "version": "1.0",
+    "description": "This extension for slow computer to save their tab",
+    "permissions": ["declarativeContent","storage","tabs"],
+    "background": {
+        "scripts": ["jquery-3.3.1.min.js","background.js","index.js"],
+        "persistent": false
+      },
+    "page_action": {
+        "default_popup": "index.html"
+      },
+    "manifest_version": 2
+  }
